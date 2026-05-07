@@ -10,7 +10,7 @@ data_COM_VAL
 
     _dictionary.title            COM_VAL
     _dictionary.class            Template
-    _dictionary.version          1.4.9
+    _dictionary.version          1.4.10-dev
     _dictionary.date             2026-04-20
     _dictionary.uri              https://raw.githubusercontent.com/COMCIFS/Enumeration_Templates/main/templ_enum.cif
     _dictionary.ddl_conformance  4.2.0
@@ -2433,4 +2433,9 @@ save_
        'neutrons_per_second_per_millimetre_squared' respectively. (av)
 
        Converted enumeration_default to enumeration_defaults. (jrh)
+;
+         1.4.10-dev               2026-04-20
+;
+       # Please note changes below and update date above until ready
+       # for next release
 ;
