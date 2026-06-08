@@ -786,6 +786,12 @@ save_units_code
    'reciprocal_angstroms_per_pixel'
    "unit for electron diffraction camera constant calibration factor"
 
+   'kilojoules_per_mole'
+   "molar energy '(joules * 10^3) * (moles^-1)'"
+
+   'kilojoules_per_mole_per_nanometre'
+   "force per mole '((joules * 10^3) * (moles^-1)) * metres * 10^( -9)'"
+
    'nanometre_squared'
    "length_squared 'nanometres squared (metres * 10^( -9))^2'"
    'angstrom_squared'
@@ -812,6 +818,7 @@ save_units_code
    'millimetres_squared_per_gram' "mass absorption 'square millimetres per gram'"
    'centimetres_squared_per_gram' "mass absorption 'square centimetres per gram'"
 
+   'pascals'          "pressure      'pascals'"
    'kilopascals'      "pressure      'kilopascals'"
    'gigapascals'      "pressure      'gigapascals'"
 
@@ -819,6 +826,9 @@ save_units_code
    'minutes'          "time      'minutes'"
    'seconds'          "time      'seconds'"
    'microseconds'     "time      'microseconds'"
+
+   'cpu_core_hours'
+   "computational workload 'CPU core-hours (number of CPU cores × hours)'"
 
    'hertz'          "frequency      'reciprocal seconds'"
 
