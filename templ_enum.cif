@@ -11,7 +11,7 @@ data_COM_VAL
     _dictionary.title            COM_VAL
     _dictionary.class            Template
     _dictionary.version          1.4.10-dev
-    _dictionary.date             2026-04-20
+    _dictionary.date             2026-06-25
     _dictionary.uri              https://raw.githubusercontent.com/COMCIFS/Enumeration_Templates/main/templ_enum.cif
     _dictionary.ddl_conformance  4.2.0
     _description.text
@@ -2440,8 +2440,8 @@ save_
 
        Converted enumeration_default to enumeration_defaults. (jrh)
 ;
-         1.4.10-dev               2026-04-20
+         1.4.10-dev               2026-06-25
 ;
-       # Please note changes below and update date above until ready
-       # for next release
+       Added 'electrons_per_second' and 'neutrons_per_second' to
+       the unit list. (jrh)
 ;
