@@ -1106,6 +1106,7 @@ save_element_symbol_to_atomic_mass
          _enumeration_source.reference
          a  'Standard atomic weights of the elements 2021 (IUPAC Technical Report) https://doi.org/10.1515/pac-2019-0603'
          b  'Mass number of the longest-lived isotope of the element: https://iupac.qmul.ac.uk/AtWt/ 2026-07-19'
+         c  'Atomic mass of 99-Tc, most widely used isotope in chemistry: https://www.ciaaw.org/atomic-masses.htm & https://doi.org/10.1002/ejic.202400780'
 
      loop_
          _enumeration_defaults.index
@@ -1119,7 +1120,7 @@ save_element_symbol_to_atomic_mass
     [ Mn ]  54.938  a  [ Fe ]  55.845  a  [ Co ]  58.933  a  [ Ni ]  58.693  a  [ Cu ]  63.546  a
     [ Zn ]  65.38   a  [ Ga ]  69.723  a  [ Ge ]  72.630  a  [ As ]  74.922  a  [ Se ]  78.971  a
     [ Br ]  79.904  a  [ Kr ]  83.798  a  [ Rb ]  85.468  a  [ Sr ]  87.62   a  [ Y ]   88.906  a
-    [ Zr ]  91.224  a  [ Nb ]  92.906  a  [ Mo ]  95.95   a  [ Tc ]  97.     b  [ Ru ]  101.07  a
+    [ Zr ]  91.224  a  [ Nb ]  92.906  a  [ Mo ]  95.95   a  [ Tc ]  98.906  c  [ Ru ]  101.07  a
     [ Rh ]  102.91  a  [ Pd ]  106.42  a  [ Ag ]  107.87  a  [ Cd ]  112.41  a  [ In ]  114.82  a
     [ Sn ]  118.71  a  [ Sb ]  121.76  a  [ Te ]  127.60  a  [ I ]   126.90  a  [ Xe ]  131.29  a
     [ Cs ]  132.91  a  [ Ba ]  137.33  a  [ La ]  138.91  a  [ Ce ]  140.12  a  [ Pr ]  140.91  a
