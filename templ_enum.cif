@@ -1102,32 +1102,39 @@ save_radius_bond
     _units.code                   angstroms
 
      loop_
+         _enumeration_source.id
+         _enumeration_source.reference
+         a  'Pekka Pyykkö and Michiko Atsumi (2009). Chemistry - A European Journal, 15: 186-197. https://doi.org/10.1002/chem.200800987'
+
+
+     loop_
          _enumeration_defaults.index
          _enumeration_defaults.value
-     [ H ]   0.32  [ D ]   0.32  [ He ]  0.46  [ Li ] 1.33  [ Be ]  1.02
-     [ B ]   0.85  [ C ]   0.75  [ N ]   0.71  [ O ]  0.63  [ F ]   0.64
-     [ Ne ]  0.67  [ Na ]  1.55  [ Mg ]  1.39  [ Al ] 1.26  [ Si ]  1.16
-     [ P ]   1.11  [ S ]   1.03  [ Cl ]  0.99  [ Ar ] 0.96  [ K ]   1.96
-     [ Ca ]  1.71  [ Sc ]  1.48  [ Ti ]  1.36  [ V ]  1.34  [ Cr ]  1.22
-     [ Mn ]  1.19  [ Fe ]  1.16  [ Co ]  1.11  [ Ni ] 1.10  [ Cu ]  1.12
-     [ Zn ]  1.18  [ Ga ]  1.24  [ Ge ]  1.21  [ As ] 1.21  [ Se ]  1.16
-     [ Br ]  1.14  [ Kr ]  1.17  [ Rb ]  2.10  [ Sr ] 1.85  [ Y ]   1.63
-     [ Zr ]  1.54  [ Nb ]  1.47  [ Mo ]  1.38  [ Tc ] 1.28  [ Ru ]  1.25
-     [ Rh ]  1.25  [ Pd ]  1.20  [ Ag ]  1.28  [ Cd ] 1.36  [ In ]  1.42
-     [ Sn ]  1.40  [ Sb ]  1.40  [ Te ]  1.36  [ I ]  1.33  [ Xe ]  1.31
-     [ Cs ]  2.32  [ Ba ]  1.96  [ La ]  1.80  [ Ce ] 1.63  [ Pr ]  1.76
-     [ Nd ]  1.74  [ Pm ]  1.73  [ Sm ]  1.72  [ Eu ] 1.68  [ Gd ]  1.69
-     [ Tb ]  1.68  [ Dy ]  1.67  [ Ho ]  1.66  [ Er ] 1.65  [ Tm ]  1.64
-     [ Yb ]  1.70  [ Lu ]  1.62  [ Hf ]  1.52  [ Ta ] 1.46  [ W ]   1.37
-     [ Re ]  1.31  [ Os ]  1.29  [ Ir ]  1.22  [ Pt ] 1.23  [ Au ]  1.24
-     [ Hg ]  1.33  [ Tl ]  1.44  [ Pb ]  1.44  [ Bi ] 1.51  [ Po ]  1.45
-     [ At ]  1.47  [ Rn ]  1.42  [ Fr ]  2.23  [ Ra ] 2.01  [ Ac ]  1.86
-     [ Th ]  1.75  [ Pa ]  1.69  [ U ]   1.70  [ Np ] 1.71  [ Pu ]  1.72
-     [ Am ]  1.66  [ Cm ]  1.66  [ Bk ]  1.68  [ Cf ] 1.68  [ Es ]  1.65
-     [ Fm ]  1.67  [ Md ]  1.73  [ No ]  1.76  [ Lr ] 1.61  [ Rf ]  1.57
-     [ Db ]  1.49  [ Sg ]  1.43  [ Bh ]  1.41  [ Hs ] 1.34  [ Mt ]  1.29
-     [ Ds ]  1.28  [ Rg ]  1.21  [ Cn ]  1.22  [ Nh ] 1.36  [ Fl ]  1.43
-     [ Mc ]  1.62  [ Lv ]  1.75  [ Ts ]  1.65  [ Og ] 1.57
+         _enumeration_defaults.source_id
+     [ H ]   0.32  a  [ D ]   0.32  a  [ He ]  0.46  a  [ Li ] 1.33  a  [ Be ]  1.02  a
+     [ B ]   0.85  a  [ C ]   0.75  a  [ N ]   0.71  a  [ O ]  0.63  a  [ F ]   0.64  a
+     [ Ne ]  0.67  a  [ Na ]  1.55  a  [ Mg ]  1.39  a  [ Al ] 1.26  a  [ Si ]  1.16  a
+     [ P ]   1.11  a  [ S ]   1.03  a  [ Cl ]  0.99  a  [ Ar ] 0.96  a  [ K ]   1.96  a
+     [ Ca ]  1.71  a  [ Sc ]  1.48  a  [ Ti ]  1.36  a  [ V ]  1.34  a  [ Cr ]  1.22  a
+     [ Mn ]  1.19  a  [ Fe ]  1.16  a  [ Co ]  1.11  a  [ Ni ] 1.10  a  [ Cu ]  1.12  a
+     [ Zn ]  1.18  a  [ Ga ]  1.24  a  [ Ge ]  1.21  a  [ As ] 1.21  a  [ Se ]  1.16  a
+     [ Br ]  1.14  a  [ Kr ]  1.17  a  [ Rb ]  2.10  a  [ Sr ] 1.85  a  [ Y ]   1.63  a
+     [ Zr ]  1.54  a  [ Nb ]  1.47  a  [ Mo ]  1.38  a  [ Tc ] 1.28  a  [ Ru ]  1.25  a
+     [ Rh ]  1.25  a  [ Pd ]  1.20  a  [ Ag ]  1.28  a  [ Cd ] 1.36  a  [ In ]  1.42  a
+     [ Sn ]  1.40  a  [ Sb ]  1.40  a  [ Te ]  1.36  a  [ I ]  1.33  a  [ Xe ]  1.31  a
+     [ Cs ]  2.32  a  [ Ba ]  1.96  a  [ La ]  1.80  a  [ Ce ] 1.63  a  [ Pr ]  1.76  a
+     [ Nd ]  1.74  a  [ Pm ]  1.73  a  [ Sm ]  1.72  a  [ Eu ] 1.68  a  [ Gd ]  1.69  a
+     [ Tb ]  1.68  a  [ Dy ]  1.67  a  [ Ho ]  1.66  a  [ Er ] 1.65  a  [ Tm ]  1.64  a
+     [ Yb ]  1.70  a  [ Lu ]  1.62  a  [ Hf ]  1.52  a  [ Ta ] 1.46  a  [ W ]   1.37  a
+     [ Re ]  1.31  a  [ Os ]  1.29  a  [ Ir ]  1.22  a  [ Pt ] 1.23  a  [ Au ]  1.24  a
+     [ Hg ]  1.33  a  [ Tl ]  1.44  a  [ Pb ]  1.44  a  [ Bi ] 1.51  a  [ Po ]  1.45  a
+     [ At ]  1.47  a  [ Rn ]  1.42  a  [ Fr ]  2.23  a  [ Ra ] 2.01  a  [ Ac ]  1.86  a
+     [ Th ]  1.75  a  [ Pa ]  1.69  a  [ U ]   1.70  a  [ Np ] 1.71  a  [ Pu ]  1.72  a
+     [ Am ]  1.66  a  [ Cm ]  1.66  a  [ Bk ]  1.68  a  [ Cf ] 1.68  a  [ Es ]  1.65  a
+     [ Fm ]  1.67  a  [ Md ]  1.73  a  [ No ]  1.76  a  [ Lr ] 1.61  a  [ Rf ]  1.57  a
+     [ Db ]  1.49  a  [ Sg ]  1.43  a  [ Bh ]  1.41  a  [ Hs ] 1.34  a  [ Mt ]  1.29  a
+     [ Ds ]  1.28  a  [ Rg ]  1.21  a  [ Cn ]  1.22  a  [ Nh ] 1.36  a  [ Fl ]  1.43  a
+     [ Mc ]  1.62  a  [ Lv ]  1.75  a  [ Ts ]  1.65  a  [ Og ] 1.57  a
      save_
 
 
