@@ -1107,7 +1107,6 @@ save_element_symbol_to_atomic_mass
          a  'Standard atomic weights of the elements 2021 (IUPAC Technical Report) https://doi.org/10.1515/pac-2019-0603'
          b  'Mass number of the longest-lived isotope of the element: https://iupac.qmul.ac.uk/AtWt/ 2026-07-19'
 
-
      loop_
          _enumeration_defaults.index
          _enumeration_defaults.value
