@@ -1236,42 +1236,6 @@ save_dispersion_real_ti
 
 save_
 
-save_dispersion_real_ti
-
-    _units.code                   none
-
-     loop_
-         _enumeration_source.id
-         _enumeration_source.reference
-         a  'International Tables Vol. C Table 4.2.6.8 3rd ed.'
-
-     loop_
-         _enumeration_defaults.index
-         _enumeration_defaults.value
-         _enumeration_defaults.source_id
-    [ H ]    0.0000  a  [ D ]    0.0000  a  [ He ]   0.0000  a  [ Li ]   0.0035  a  [ Be ]   0.0117  a
-    [ B ]    0.0263  a  [ C ]    0.0490  a  [ N ]    0.0807  a  [ O ]    0.1213  a  [ F ]    0.1700  a
-    [ Ne ]   0.2257  a  [ Na ]   0.2801  a  [ Mg ]   0.3299  a  [ Al ]   0.3760  a  [ Si ]   0.3921  a
-    [ P ]    0.3821  a  [ S ]    0.3167  a  [ Cl ]   0.1832  a  [ Ar ]  -0.0656  a  [ K ]   -0.5083  a
-    [ Ca ]  -1.3666  a  [ Sc ]  -5.4265  a  [ Ti ]  -2.2250  a  [ V ]   -1.6269  a  [ Cr ]  -1.2999  a
-    [ Mn ]  -1.0732  a  [ Fe ]  -0.8901  a  [ Co ]  -0.7307  a  [ Ni ]  -0.5921  a  [ Cu ]  -0.4430  a
-    [ Zn ]  -0.3524  a  [ Ga ]  -0.2524  a  [ Ge ]  -0.1549  a  [ As ]  -0.0687  a  [ Se ]   0.0052  a
-    [ Br ]   0.0592  a  [ Kr ]   0.1009  a  [ Rb ]   0.1056  a  [ Sr ]   0.1220  a  [ Y ]    0.0654  a
-    [ Zr ]  -0.0304  a  [ Nb ]  -0.1659  a  [ Mo ]  -0.3487  a  [ Tc ]  -0.6073  a  [ Ru ]  -0.9294  a
-    [ Rh ]  -1.3551  a  [ Pd ]  -1.9086  a  [ Ag ]  -2.5003  a  [ Cd ]  -3.5070  a  [ In ]  -5.1325  a
-    [ Sn ]  -7.5862  a  [ Sb ]  -9.2145  a  [ Te ] -11.6068  a  [ I ]  -13.9940  a  [ Xe ]  -9.6593  a
-    [ Cs ]  -8.1342  a  [ Ba ]  -7.2079  a  [ La ]  -6.5722  a  [ Ce ]  -6.0641  a  [ Pr ]  -5.6727  a
-    [ Nd ]  -5.3510  a  [ Pm ]  -5.0783  a  [ Sm ]  -4.8443  a  [ Eu ]  -4.6288  a  [ Gd ]  -4.5094  a
-    [ Tb ]  -4.3489  a  [ Dy ]  -4.1616  a  [ Ho ]  -4.0280  a  [ Er ]  -3.9471  a  [ Tm ]  -3.9079  a
-    [ Yb ]  -3.8890  a  [ Lu ]  -3.9056  a  [ Hf ]  -4.0452  a  [ Ta ]  -4.0905  a  [ W ]   -4.1530  a
-    [ Re ]  -4.2681  a  [ Os ]  -4.4183  a  [ Ir ]  -4.5860  a  [ Pt ]  -4.8057  a  [ Au ]  -5.0625  a
-    [ Hg ]  -5.4327  a  [ Tl ]  -5.8163  a  [ Pb ]  -6.4779  a  [ Bi ]  -7.0419  a  [ Po ]  -7.7195  a
-    [ At ]  -8.5994  a  [ Rn ] -10.2749  a  [ Fr ] -10.8938  a  [ Ra ] -12.3462  a  [ Ac ] -12.3496  a
-    [ Th ] -13.6049  a  [ Pa ] -14.4639  a  [ U ]  -12.3528  a  [ Np ] -17.4143  a  [ Pu ] -18.0862  a
-    [ Am ] -19.7042  a  [ Cm ] -24.9307  a  [ Bk ] -32.8492  a  [ Cf ] -23.6520  a
-
-save_
-
 save_dispersion_imag_ti
 
     _units.code                   none
