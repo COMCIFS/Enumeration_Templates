@@ -1104,7 +1104,7 @@ save_element_symbol_to_atomic_mass
      loop_
          _enumeration_source.id
          _enumeration_source.reference
-         a  'Standard atomic weights of the elements 2021 (IUPAC Technical Report) https://doi.org/10.1515/pac-2019-0603'
+         a  'Abridged standard atomic weights of the elements 2021 (IUPAC Technical Report) https://doi.org/10.1515/pac-2019-0603'
          b  'Mass number of the longest-lived isotope of the element: https://iupac.qmul.ac.uk/AtWt/ 2026-07-19'
          c  'Atomic mass of 99-Tc, most widely used isotope in chemistry: https://www.ciaaw.org/atomic-masses.htm & https://doi.org/10.1002/ejic.202400780'
 
