@@ -1097,6 +1097,48 @@ save_atomic_mass
      save_
 
 
+save_element_symbol_to_atomic_mass
+
+    _units.code                   dalton
+
+     loop_
+         _enumeration_source.id
+         _enumeration_source.reference
+         a  'Abridged standard atomic weights of the elements 2021 (IUPAC Technical Report) https://doi.org/10.1515/pac-2019-0603'
+         b  'Mass number of the longest-lived isotope of the element: https://iupac.qmul.ac.uk/AtWt/ 2026-07-19'
+         c  'Atomic mass of 99-Tc, most widely used isotope in chemistry: https://www.ciaaw.org/atomic-masses.htm & https://doi.org/10.1002/ejic.202400780'
+
+     loop_
+         _enumeration_defaults.index
+         _enumeration_defaults.value
+         _enumeration_defaults.source_id
+    [ H ]   1.0080  a  [ D ]   2.0141  a  [ He ]  4.0026  a  [ Li ]  6.94    a  [ Be ]  9.0122  a
+    [ B ]   10.81   a  [ C ]   12.011  a  [ N ]   14.007  a  [ O ]   15.999  a  [ F ]   18.998  a
+    [ Ne ]  20.180  a  [ Na ]  22.990  a  [ Mg ]  24.305  a  [ Al ]  26.982  a  [ Si ]  28.085  a
+    [ P ]   30.974  a  [ S ]   32.06   a  [ Cl ]  35.45   a  [ Ar ]  39.95   a  [ K ]   39.098  a
+    [ Ca ]  40.078  a  [ Sc ]  44.956  a  [ Ti ]  47.867  a  [ V ]   50.942  a  [ Cr ]  51.996  a
+    [ Mn ]  54.938  a  [ Fe ]  55.845  a  [ Co ]  58.933  a  [ Ni ]  58.693  a  [ Cu ]  63.546  a
+    [ Zn ]  65.38   a  [ Ga ]  69.723  a  [ Ge ]  72.630  a  [ As ]  74.922  a  [ Se ]  78.971  a
+    [ Br ]  79.904  a  [ Kr ]  83.798  a  [ Rb ]  85.468  a  [ Sr ]  87.62   a  [ Y ]   88.906  a
+    [ Zr ]  91.224  a  [ Nb ]  92.906  a  [ Mo ]  95.95   a  [ Tc ]  98.906  c  [ Ru ]  101.07  a
+    [ Rh ]  102.91  a  [ Pd ]  106.42  a  [ Ag ]  107.87  a  [ Cd ]  112.41  a  [ In ]  114.82  a
+    [ Sn ]  118.71  a  [ Sb ]  121.76  a  [ Te ]  127.60  a  [ I ]   126.90  a  [ Xe ]  131.29  a
+    [ Cs ]  132.91  a  [ Ba ]  137.33  a  [ La ]  138.91  a  [ Ce ]  140.12  a  [ Pr ]  140.91  a
+    [ Nd ]  144.24  a  [ Pm ]  145.    b  [ Sm ]  150.36  a  [ Eu ]  151.96  a  [ Gd ]  157.25  a
+    [ Tb ]  158.93  a  [ Dy ]  162.50  a  [ Ho ]  164.93  a  [ Er ]  167.26  a  [ Tm ]  168.93  a
+    [ Yb ]  173.05  a  [ Lu ]  174.97  a  [ Hf ]  178.49  a  [ Ta ]  180.95  a  [ W ]   183.84  a
+    [ Re ]  186.21  a  [ Os ]  190.23  a  [ Ir ]  192.22  a  [ Pt ]  195.08  a  [ Au ]  196.97  a
+    [ Hg ]  200.59  a  [ Tl ]  204.38  a  [ Pb ]  207.2   a  [ Bi ]  208.98  a  [ Po ]  209.    b
+    [ At ]  210.    b  [ Rn ]  222.    b  [ Fr ]  223.    b  [ Ra ]  226.    b  [ Ac ]  227.    b
+    [ Th ]  232.04  a  [ Pa ]  231.04  a  [ U ]   238.03  a  [ Np ]  237.    b  [ Pu ]  244.    b
+    [ Am ]  243.    b  [ Cm ]  247.    b  [ Bk ]  247.    b  [ Cf ]  251.    b  [ Es ]  252.    b
+    [ Fm ]  257.    b  [ Md ]  258.    b  [ No ]  259.    b  [ Lr ]  262.    b  [ Rf ]  267.    b
+    [ Db ]  270.    b  [ Sg ]  269.    b  [ Bh ]  270.    b  [ Hs ]  270.    b  [ Mt ]  278.    b
+    [ Ds ]  281.    b  [ Rg ]  281.    b  [ Cn ]  285.    b  [ Nh ]  286.    b  [ Fl ]  289.    b
+    [ Mc ]  289.    b  [ Lv ]  293.    b  [ Ts ]  293.    b  [ Og ]  294.    b
+     save_
+
+
 save_radius_bond
 
     _units.code                   angstroms
