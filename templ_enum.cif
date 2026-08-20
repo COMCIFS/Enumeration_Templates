@@ -760,6 +760,8 @@ save_units_code
 
    'coulomb'        "electronic charge in coulombs"
    'electron_volts' "electronic charge in electron volts eV"
+   'elementary_charge'
+   "magnitude of the charge of an electron '(e = coulomb * 1.602176634 * 10^(-19))'"
 
    'metres'       "length    'metres (metres * 10^(0))'"
    'centimetres'  "length    'centimetres (metres * 10^( -2))'"
@@ -793,7 +795,7 @@ save_units_code
    "force per mole '((joules * 10^3) * (moles^-1)) * metres * 10^( -9)'"
 
    'kilojoules_per_mole_per_nanometre_squared'
-   "per-atom Hessian '((joules * 10^3) * (moles^-1)) * (metres * 10^( -9))^-2'"
+   "Hessian '((joules * 10^3) * (moles^-1)) * (metres * 10^( -9))^-2'"
 
    'joules_per_mole_per_kelvin'
    "molar heat capacity '(joules * (moles^-1)) * kelvin-1'"
@@ -871,8 +873,6 @@ save_units_code
    "electron flux 'electrons per second (electrons * (seconds^(-1)))'"
 
    'electron_effective_mass' "dimensionless mass multiplier"
-
-   'elementary_charge'       "per-atom partial charge"
 
    'femtometres_per_angstrom_cubed'
    "scattering-length-density 'femtometres per angstroms cubed (10^-6 * (metres * 10^(-10))^(-2))'"
