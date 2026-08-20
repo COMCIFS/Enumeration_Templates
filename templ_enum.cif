@@ -792,6 +792,12 @@ save_units_code
    'kilojoules_per_mole_per_nanometre'
    "force per mole '((joules * 10^3) * (moles^-1)) * metres * 10^( -9)'"
 
+   'kilojoules_per_mole_per_nanometre_squared'
+   "per-atom Hessian '((joules * 10^3) * (moles^-1)) * (metres * 10^( -9))^-2'"
+
+   'joules_per_mole_per_kelvin'
+   "molar heat capacity '(joules * (moles^-1)) * kelvin-1'"
+
    'nanometre_squared'
    "length_squared 'nanometres squared (metres * 10^( -9))^2'"
    'angstrom_squared'
@@ -842,6 +848,7 @@ save_units_code
    'Celsius'      "temperature     'degrees (of temperature) Celsius'"
    'kelvins'      "temperature     'temperature in kelvins'"
    'kelvins_per_minute' "cooling rate 'kelvins per minute'"
+   'reciprocal_kelvins' "thermal expansion 'reciprocal kelvins (kelvins^(-1))'"
 
    'electrons'    "electrons              'electrons'"
 
@@ -863,6 +870,10 @@ save_units_code
    'electrons_per_second'
    "electron flux 'electrons per second (electrons * (seconds^(-1)))'"
 
+   'electron_effective_mass' "dimensionless mass multiplier"
+
+   'elementary_charge'       "per-atom partial charge"
+
    'femtometres_per_angstrom_cubed'
    "scattering-length-density 'femtometres per angstroms cubed (10^-6 * (metres * 10^(-10))^(-2))'"
 
@@ -874,6 +885,11 @@ save_units_code
    'kilowatts'     "power       'kilowatts'"
    'milliamperes'  "current     'milliamperes'"
    'kilovolts'     "emf         'kilovolts'"
+
+   'watts_per_metre_per_kelvin'
+    "thermal conductivity 'watts per metre per kelvin (watts * metre^(-1) * kelvin^(-1))'"
+   'volts_per_kelvin'
+    "Seebeck coefficient 'volts per kelvin (volts * kelvins^(-1))'"
 
    'volt_squared'     "emf         'volts squared'"
    'Bohr_magnetons'   "magnetic moment"
@@ -903,6 +919,8 @@ save_units_code
    "neutron flux 'neutrons per second (neutrons * (seconds^(-1)))'"
 
    'megagray'     "radiation dose       'megagrays'"
+
+   'siemens_per_metre' "electrical conductivity 'siemens per metre (siemens * metres^(-1))'"
 
    'microseconds_per_angstrom' "TOF coefficient '(seconds * 10^(-6)) * (metres * 10^(-10)^(-1))'"
    'microseconds_per_angstrom_squared' "TOF coefficient '(seconds * 10^(-6)) * (metres * 10^(-10)^(-2))'"
