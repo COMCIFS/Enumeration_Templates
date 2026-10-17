@@ -1096,58 +1096,105 @@ save_atomic_mass
      [ Am ]    243.    [ Cm ]    247.    [ Bk ]    247.    [ Cf ]    249.
      save_
 
-
 save_radius_bond
 
     _units.code                   angstroms
 
      loop_
+         _enumeration_source.id
+         _enumeration_source.reference
+         a  'Pauling, L. (1960) The Nature of the Chemical Bond. 3rd ed. Cornell University Press, New York. Table 7.2, p. 224.'
+         b  'Pauling, L. (1960) The Nature of the Chemical Bond. 3rd ed. Cornell University Press, New York. Table 7.4, p. 226.'
+         c  'Pauling, L. (1960) The Nature of the Chemical Bond. 3rd ed. Cornell University Press, New York. Table 7.5, p. 228.'
+         d  'Pauling, L. (1960) The Nature of the Chemical Bond. 3rd ed. Cornell University Press, New York. Table 7.18, p. 256.'
+         e  'Pauling, L. (1960) The Nature of the Chemical Bond. 3rd ed. Cornell University Press, New York. Table 11.1, p. 703.'
+
+     loop_
          _enumeration_defaults.index
          _enumeration_defaults.value
-     [ H ]     0.37    [ D ]     0.37    [ H1- ]   0.37    [ He ]    0.40    [ Li ]    1.23
-     [ Li1+ ]  1.23    [ Be ]    0.89    [ Be2+ ]  0.89    [ B ]     0.80    [ C ]     0.77
-     [ N ]     0.74    [ O ]     0.74    [ O1- ]   0.74    [ F ]     0.72    [ F1- ]   0.72
-     [ Ne ]    0.72    [ Na ]    1.57    [ Na1+ ]  1.57    [ Mg ]    1.36    [ Mg2+ ]  1.36
-     [ Al ]    1.25    [ Al3+ ]  1.25    [ Si ]    1.17    [ Si4+ ]  1.17    [ P ]     1.10
-     [ S ]     1.04    [ Cl ]    0.99    [ Cl1- ]  0.99    [ Ar ]    1.00    [ K ]     2.03
-     [ K1+ ]   2.03    [ Ca ]    1.74    [ Ca2+ ]  1.74    [ Sc ]    1.44    [ Sc3+ ]  1.44
-     [ Ti ]    1.35    [ Ti2+ ]  1.35    [ Ti3+ ]  1.35    [ Ti4+ ]  1.35    [ V ]     1.22
-     [ V2+ ]   1.22    [ V3+ ]   1.22    [ V5+ ]   1.22    [ Cr ]    1.17    [ Cr2+ ]  1.17
-     [ Cr3+ ]  1.17    [ Mn ]    1.17    [ Mn2+ ]  1.17    [ Mn3+ ]  1.17    [ Mn4+ ]  1.17
-     [ Fe ]    1.17    [ Fe2+ ]  1.17    [ Fe3+ ]  1.17    [ Co ]    1.16    [ Co2+ ]  1.16
-     [ Co3+ ]  1.16    [ Ni ]    1.15    [ Ni2+ ]  1.15    [ Ni3+ ]  1.15    [ Cu ]    1.17
-     [ Cu1+ ]  1.17    [ Cu2+ ]  1.17    [ Zn ]    1.25    [ Zn2+ ]  1.25    [ Ga ]    1.25
-     [ Ga3+ ]  1.25    [ Ge ]    1.22    [ Ge4+ ]  1.22    [ As ]    1.21    [ Se ]    1.17
-     [ Br ]    1.14    [ Br1- ]  1.14    [ Kr ]    1.14    [ Rb ]    2.16    [ Rb1+ ]  2.16
-     [ Sr ]    1.91    [ Sr2+ ]  1.91    [ Y ]     1.62    [ Y3+ ]   1.62    [ Zr ]    1.45
-     [ Zr4+ ]  1.45    [ Nb ]    1.34    [ Nb3+ ]  1.34    [ Nb5+ ]  1.34    [ Mo ]    1.29
-     [ Mo3+ ]  1.29    [ Mo5+ ]  1.29    [ Mo6+ ]  1.29    [ Tc ]    1.27    [ Ru ]    1.24
-     [ Ru3+ ]  1.24    [ Ru4+ ]  1.24    [ Rh ]    1.25    [ Rh3+ ]  1.25    [ Rh4+ ]  1.25
-     [ Pd ]    1.28    [ Pd2+ ]  1.28    [ Pd4+ ]  1.28    [ Ag ]    1.34    [ Ag1+ ]  1.34
-     [ Ag2+ ]  1.34    [ Cd ]    1.41    [ Cd2+ ]  1.41    [ In ]    1.50    [ In3+ ]  1.50
-     [ Sn ]    1.41    [ Sn2+ ]  1.41    [ Sn4+ ]  1.41    [ Sb ]    1.41    [ Sb3+ ]  1.41
-     [ Sb5+ ]  1.41    [ Te ]    1.37    [ I ]     1.33    [ I1- ]   1.33    [ Xe ]    1.33
-     [ Cs ]    2.35    [ Cs1+ ]  2.35    [ Ba ]    1.98    [ Ba2+ ]  1.98    [ La ]    1.69
-     [ La3+ ]  1.69    [ Ce ]    1.65    [ Ce3+ ]  1.65    [ Ce4+ ]  1.65    [ Pr ]    1.65
-     [ Pr3+ ]  1.65    [ Pr4+ ]  1.65    [ Nd ]    1.64    [ Nd3+ ]  1.64    [ Pm ]    1.63
-     [ Sm ]    1.66    [ Sm3+ ]  1.66    [ Eu ]    1.85    [ Eu2+ ]  1.85    [ Eu3+ ]  1.85
-     [ Gd ]    1.61    [ Gd3+ ]  1.61    [ Tb ]    1.59    [ Tb3+ ]  1.59    [ Dy ]    1.59
-     [ Dy3+ ]  1.59    [ Ho ]    1.58    [ Ho3+ ]  1.58    [ Er ]    1.57    [ Er3+ ]  1.57
-     [ Tm ]    1.56    [ Tm3+ ]  1.56    [ Yb ]    1.70    [ Yb2+ ]  1.70    [ Yb3+ ]  1.70
-     [ Lu ]    1.56    [ Lu3+ ]  1.56    [ Hf ]    1.44    [ Hf4+ ]  1.44    [ Ta ]    1.34
-     [ Ta5+ ]  1.34    [ W ]     1.30    [ W6+ ]   1.30    [ Re ]    1.28    [ Os ]    1.26
-     [ Os4+ ]  1.26    [ Ir ]    1.26    [ Ir3+ ]  1.26    [ Ir4+ ]  1.26    [ Pt ]    1.29
-     [ Pt2+ ]  1.29    [ Pt4+ ]  1.29    [ Au ]    1.34    [ Au1+ ]  1.34    [ Au3+ ]  1.34
-     [ Hg ]    1.44    [ Hg1+ ]  1.44    [ Hg2+ ]  1.44    [ Tl ]    1.55    [ Tl1+ ]  1.55
-     [ Tl3+ ]  1.55    [ Pb ]    1.54    [ Pb2+ ]  1.54    [ Pb4+ ]  1.54    [ Bi ]    1.52
-     [ Bi3+ ]  1.52    [ Bi5+ ]  1.52    [ Po ]    1.53    [ At ]    1.53    [ Rn ]    1.53
-     [ Fr ]    1.53    [ Ra ]    1.53    [ Ra2+ ]  1.53    [ Ac ]    1.53    [ Ac3+ ]  1.53
-     [ Th ]    1.65    [ Th4+ ]  1.65    [ Pa ]    1.53    [ U ]     1.42    [ U3+ ]   1.42
-     [ U4+ ]   1.42    [ U6+ ]   1.42    [ Np ]    1.42    [ Np3+ ]  1.42    [ Np4+ ]  1.42
-     [ Np6+ ]  1.42    [ Pu ]    1.42    [ Pu3+ ]  1.42    [ Pu4+ ]  1.42    [ Pu6+ ]  1.42
-     [ Am ]    1.42    [ Cm ]    1.42    [ Bk ]    1.42    [ Cf ]    1.42
+         _enumeration_defaults.source_id
+    [ H ]     0.37  b  [ D ]     0.37  b  [ H1- ]   0.37  b  [ He ]    0.40  ?  [ Li ]    1.23  d
+    [ Li1+ ]  1.23  d  [ Be ]    0.89  d  [ Be2+ ]  0.89  d  [ B ]     0.80  e  [ C ]     0.77  c
+    [ N ]     0.74  c  [ O ]     0.74  c  [ O1- ]   0.74  c  [ F ]     0.72  c  [ F1- ]   0.72  c
+    [ Ne ]    0.72  ?  [ Na ]    1.57  d  [ Na1+ ]  1.57  d  [ Mg ]    1.36  d  [ Mg2+ ]  1.36  d
+    [ Al ]    1.25  d  [ Al3+ ]  1.25  d  [ Si ]    1.17  d  [ Si4+ ]  1.17  d  [ P ]     1.10  a
+    [ S ]     1.04  a  [ Cl ]    0.99  a  [ Cl1- ]  0.99  a  [ Ar ]    1.00  ?  [ K ]     2.03  d
+    [ K1+ ]   2.03  d  [ Ca ]    1.74  d  [ Ca2+ ]  1.74  d  [ Sc ]    1.44  d  [ Sc3+ ]  1.44  d
+    [ Ti ]    1.35  d  [ Ti2+ ]  1.35  d  [ Ti3+ ]  1.35  d  [ Ti4+ ]  1.35  d  [ V ]     1.22  d
+    [ V2+ ]   1.22  d  [ V3+ ]   1.22  d  [ V5+ ]   1.22  d  [ Cr ]    1.17  d  [ Cr2+ ]  1.17  d
+    [ Cr3+ ]  1.17  d  [ Mn ]    1.17  d  [ Mn2+ ]  1.17  d  [ Mn3+ ]  1.17  d  [ Mn4+ ]  1.17  d
+    [ Fe ]    1.17  e  [ Fe2+ ]  1.17  e  [ Fe3+ ]  1.17  e  [ Co ]    1.16  e  [ Co2+ ]  1.16  e
+    [ Co3+ ]  1.16  e  [ Ni ]    1.15  d  [ Ni2+ ]  1.15  d  [ Ni3+ ]  1.15  d  [ Cu ]    1.17  d
+    [ Cu1+ ]  1.17  d  [ Cu2+ ]  1.17  d  [ Zn ]    1.25  d  [ Zn2+ ]  1.25  d  [ Ga ]    1.25  e
+    [ Ga3+ ]  1.25  e  [ Ge ]    1.22  d  [ Ge4+ ]  1.22  d  [ As ]    1.21  e  [ Se ]    1.17  e
+    [ Br ]    1.14  a  [ Br1- ]  1.14  a  [ Kr ]    1.14  ?  [ Rb ]    2.16  d  [ Rb1+ ]  2.16  d
+    [ Sr ]    1.91  d  [ Sr2+ ]  1.91  d  [ Y ]     1.62  d  [ Y3+ ]   1.62  d  [ Zr ]    1.45  d
+    [ Zr4+ ]  1.45  d  [ Nb ]    1.34  d  [ Nb3+ ]  1.34  d  [ Nb5+ ]  1.34  d  [ Mo ]    1.29  d
+    [ Mo3+ ]  1.29  d  [ Mo5+ ]  1.29  d  [ Mo6+ ]  1.29  d  [ Tc ]    1.27  d  [ Ru ]    1.24  d
+    [ Ru3+ ]  1.24  d  [ Ru4+ ]  1.24  d  [ Rh ]    1.25  d  [ Rh3+ ]  1.25  d  [ Rh4+ ]  1.25  d
+    [ Pd ]    1.28  d  [ Pd2+ ]  1.28  d  [ Pd4+ ]  1.28  d  [ Ag ]    1.34  d  [ Ag1+ ]  1.34  d
+    [ Ag2+ ]  1.34  d  [ Cd ]    1.41  d  [ Cd2+ ]  1.41  d  [ In ]    1.50  d  [ In3+ ]  1.50  d
+    [ Sn ]    1.41  d  [ Sn2+ ]  1.41  d  [ Sn4+ ]  1.41  d  [ Sb ]    1.41  a  [ Sb3+ ]  1.41  a
+    [ Sb5+ ]  1.41  a  [ Te ]    1.37  e  [ I ]     1.33  a  [ I1- ]   1.33  a  [ Xe ]    1.33  ?
+    [ Cs ]    2.35  d  [ Cs1+ ]  2.35  d  [ Ba ]    1.98  d  [ Ba2+ ]  1.98  d  [ La ]    1.69  d
+    [ La3+ ]  1.69  d  [ Ce ]    1.65  e  [ Ce3+ ]  1.65  e  [ Ce4+ ]  1.65  e  [ Pr ]    1.65  e
+    [ Pr3+ ]  1.65  e  [ Pr4+ ]  1.65  e  [ Nd ]    1.64  e  [ Nd3+ ]  1.64  e  [ Pm ]    1.63  e
+    [ Sm ]    1.66  e  [ Sm3+ ]  1.66  e  [ Eu ]    1.85  e  [ Eu2+ ]  1.85  e  [ Eu3+ ]  1.85  e
+    [ Gd ]    1.61  e  [ Gd3+ ]  1.61  e  [ Tb ]    1.59  e  [ Tb3+ ]  1.59  e  [ Dy ]    1.59  e
+    [ Dy3+ ]  1.59  e  [ Ho ]    1.58  e  [ Ho3+ ]  1.58  e  [ Er ]    1.57  e  [ Er3+ ]  1.57  e
+    [ Tm ]    1.56  e  [ Tm3+ ]  1.56  e  [ Yb ]    1.70  e  [ Yb2+ ]  1.70  e  [ Yb3+ ]  1.70  e
+    [ Lu ]    1.56  e  [ Lu3+ ]  1.56  e  [ Hf ]    1.44  d  [ Hf4+ ]  1.44  d  [ Ta ]    1.34  d
+    [ Ta5+ ]  1.34  d  [ W ]     1.30  d  [ W6+ ]   1.30  d  [ Re ]    1.28  d  [ Os ]    1.26  d
+    [ Os4+ ]  1.26  d  [ Ir ]    1.26  d  [ Ir3+ ]  1.26  d  [ Ir4+ ]  1.26  d  [ Pt ]    1.29  d
+    [ Pt2+ ]  1.29  d  [ Pt4+ ]  1.29  d  [ Au ]    1.34  d  [ Au1+ ]  1.34  d  [ Au3+ ]  1.34  d
+    [ Hg ]    1.44  d  [ Hg1+ ]  1.44  d  [ Hg2+ ]  1.44  d  [ Tl ]    1.55  d  [ Tl1+ ]  1.55  d
+    [ Tl3+ ]  1.55  d  [ Pb ]    1.54  d  [ Pb2+ ]  1.54  d  [ Pb4+ ]  1.54  d  [ Bi ]    1.52  e
+    [ Bi3+ ]  1.52  e  [ Bi5+ ]  1.52  e  [ Po ]    1.53  ?  [ At ]    1.53  ?  [ Rn ]    1.53  ?
+    [ Fr ]    1.53  ?  [ Ra ]    1.53  ?  [ Ra2+ ]  1.53  ?  [ Ac ]    1.53  ?  [ Ac3+ ]  1.53  ?
+    [ Th ]    1.65  e  [ Th4+ ]  1.65  e  [ Pa ]    1.53  ?  [ U ]     1.42  e  [ U3+ ]   1.42  e
+    [ U4+ ]   1.42  e  [ U6+ ]   1.42  e  [ Np ]    1.42  ?  [ Np3+ ]  1.42  ?  [ Np4+ ]  1.42  ?
+    [ Np6+ ]  1.42  ?  [ Pu ]    1.42  ?  [ Pu3+ ]  1.42  ?  [ Pu4+ ]  1.42  ?  [ Pu6+ ]  1.42  ?
+    [ Am ]    1.42  ?  [ Cm ]    1.42  ?  [ Bk ]    1.42  ?  [ Cf ]    1.42  ?
      save_
 
+save_element_symbol_to_covalent_radius
+
+    _units.code                   angstroms
+
+     loop_
+         _enumeration_source.id
+         _enumeration_source.reference
+         a  'Pekka Pyykkö and Michiko Atsumi (2009). Chemistry - A European Journal, 15: 186-197. https://doi.org/10.1002/chem.200800987'
+
+     loop_
+         _enumeration_defaults.index
+         _enumeration_defaults.value
+         _enumeration_defaults.source_id
+     [ H ]   0.32  a  [ D ]   0.32  a  [ He ]  0.46  a  [ Li ] 1.33  a  [ Be ]  1.02  a
+     [ B ]   0.85  a  [ C ]   0.75  a  [ N ]   0.71  a  [ O ]  0.63  a  [ F ]   0.64  a
+     [ Ne ]  0.67  a  [ Na ]  1.55  a  [ Mg ]  1.39  a  [ Al ] 1.26  a  [ Si ]  1.16  a
+     [ P ]   1.11  a  [ S ]   1.03  a  [ Cl ]  0.99  a  [ Ar ] 0.96  a  [ K ]   1.96  a
+     [ Ca ]  1.71  a  [ Sc ]  1.48  a  [ Ti ]  1.36  a  [ V ]  1.34  a  [ Cr ]  1.22  a
+     [ Mn ]  1.19  a  [ Fe ]  1.16  a  [ Co ]  1.11  a  [ Ni ] 1.10  a  [ Cu ]  1.12  a
+     [ Zn ]  1.18  a  [ Ga ]  1.24  a  [ Ge ]  1.21  a  [ As ] 1.21  a  [ Se ]  1.16  a
+     [ Br ]  1.14  a  [ Kr ]  1.17  a  [ Rb ]  2.10  a  [ Sr ] 1.85  a  [ Y ]   1.63  a
+     [ Zr ]  1.54  a  [ Nb ]  1.47  a  [ Mo ]  1.38  a  [ Tc ] 1.28  a  [ Ru ]  1.25  a
+     [ Rh ]  1.25  a  [ Pd ]  1.20  a  [ Ag ]  1.28  a  [ Cd ] 1.36  a  [ In ]  1.42  a
+     [ Sn ]  1.40  a  [ Sb ]  1.40  a  [ Te ]  1.36  a  [ I ]  1.33  a  [ Xe ]  1.31  a
+     [ Cs ]  2.32  a  [ Ba ]  1.96  a  [ La ]  1.80  a  [ Ce ] 1.63  a  [ Pr ]  1.76  a
+     [ Nd ]  1.74  a  [ Pm ]  1.73  a  [ Sm ]  1.72  a  [ Eu ] 1.68  a  [ Gd ]  1.69  a
+     [ Tb ]  1.68  a  [ Dy ]  1.67  a  [ Ho ]  1.66  a  [ Er ] 1.65  a  [ Tm ]  1.64  a
+     [ Yb ]  1.70  a  [ Lu ]  1.62  a  [ Hf ]  1.52  a  [ Ta ] 1.46  a  [ W ]   1.37  a
+     [ Re ]  1.31  a  [ Os ]  1.29  a  [ Ir ]  1.22  a  [ Pt ] 1.23  a  [ Au ]  1.24  a
+     [ Hg ]  1.33  a  [ Tl ]  1.44  a  [ Pb ]  1.44  a  [ Bi ] 1.51  a  [ Po ]  1.45  a
+     [ At ]  1.47  a  [ Rn ]  1.42  a  [ Fr ]  2.23  a  [ Ra ] 2.01  a  [ Ac ]  1.86  a
+     [ Th ]  1.75  a  [ Pa ]  1.69  a  [ U ]   1.70  a  [ Np ] 1.71  a  [ Pu ]  1.72  a
+     [ Am ]  1.66  a  [ Cm ]  1.66  a  [ Bk ]  1.68  a  [ Cf ] 1.68  a  [ Es ]  1.65  a
+     [ Fm ]  1.67  a  [ Md ]  1.73  a  [ No ]  1.76  a  [ Lr ] 1.61  a  [ Rf ]  1.57  a
+     [ Db ]  1.49  a  [ Sg ]  1.43  a  [ Bh ]  1.41  a  [ Hs ] 1.34  a  [ Mt ]  1.29  a
+     [ Ds ]  1.28  a  [ Rg ]  1.21  a  [ Cn ]  1.22  a  [ Nh ] 1.36  a  [ Fl ]  1.43  a
+     [ Mc ]  1.62  a  [ Lv ]  1.75  a  [ Ts ]  1.65  a  [ Og ] 1.57  a
+     save_
 
 save_length_neutron
 
